@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Nageswari Vasireddy, an Aspiring Full Stack Developer & AI Enthusiast specializing in building modern web applications and AI solutions."
+    />
+    <meta
+      name="keywords"
+      content="Nageswari Vasireddy, Full Stack Developer, AI Enthusiast, Portfolio, Web Development, Pragati Engineering College"
+    />
+    <meta name="author" content="Nageswari Vasireddy" />
+
+    <!-- Open Graph Tags -->
+    <meta
+      property="og:title"
+      content="Nageswari Vasireddy | Full Stack Developer & AI Enthusiast"
+    />
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Nageswari Vasireddy, featuring projects in Full Stack Development and AI."
+    />
+    <meta property="og:image" content="assets/images/profile-placeholder.jpg" />
+    <meta property="og:url" content="https://nageswari.dev" />
+    <meta property="og:type" content="website" />
+
+    <title>
+      Nageswari Vasireddy | Aspiring Full Stack Developer & AI Enthusiast
+    </title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <header>
+      <div class="container">
+        <nav aria-label="Main Navigation">
+          <a href="index.html" class="logo" aria-label="Nageswari.dev Home"
+            >Nageswari.dev</a
+          >
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="active" aria-current="page">Home</a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container">
+          <div
+            class="hero-grid"
+            style="
+              display: grid;
+              grid-template-columns: 1.2fr 0.8fr;
+              gap: 4rem;
+              align-items: center;
+            "
+          >
+            <div class="hero-content">
+              <p
+                class="greeting"
+                style="
+                  color: var(--accent-secondary);
+                  font-weight: 600;
+                  margin-bottom: 0.5rem;
+                "
+              >
+                Hello, I'm
+              </p>
+              <h1
+                id="hero-heading"
+                style="
+                  font-size: clamp(2.5rem, 5vw, 4rem);
+                  margin-bottom: 1.5rem;
+                "
+              >
+                Nageswari Vasireddy
+              </h1>
+              <p
+                class="title"
+                style="
+                  font-size: 1.5rem;
+                  color: var(--text-muted);
+                  margin-bottom: 2rem;
+                "
+              >
+                Aspiring Full Stack Developer & AI Enthusiast
+              </p>
+              <p
+                class="summary"
+                style="
+                  font-size: 1.1rem;
+                  max-width: 600px;
+                  margin-bottom: 2.5rem;
+                  color: var(--text-muted);
+                "
+              >
+                Passionate about Full Stack Development, Data Structures &
+                Algorithms, and Large Language Models. Focused on building
+                practical software solutions and continuously learning modern
+                technologies.
+              </p>
+              <div class="hero-btns" style="display: flex; gap: 1rem">
+                <a href="projects.html" class="btn btn-primary"
+                  >View Projects</a
+                >
+                <a href="contact.html" class="btn btn-outline">Contact Me</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div
+                class="image-wrapper"
+                style="
+                  position: relative;
+                  border-radius: 20px;
+                  overflow: hidden;
+                  border: 4px solid rgba(139, 92, 246, 0.2);
+                "
+              >
+                <img
+                  src="assets/images/profile-placeholder.jpg"
+                  alt="Nageswari Vasireddy professional portrait"
+                  style="width: 100%; height: auto; object-fit: cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Overview -->
+      <section
+        class="skills-preview"
+        style="background-color: var(--bg-secondary)"
+        aria-labelledby="skills-heading"
+      >
+        <div class="container">
+          <div style="text-align: center; margin-bottom: 4rem">
+            <h2 id="skills-heading">Technical Expertise</h2>
+            <p style="color: var(--text-muted)">
+              A glimpse into my core competencies
+            </p>
+          </div>
+          <div
+            class="skills-grid"
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 2rem;
+            "
+          >
+            <div class="card">
+              <h3 style="color: var(--accent-primary)">Frontend</h3>
+              <p style="color: var(--text-muted)">
+                HTML5, CSS3, Modern UI/UX Principles
+              </p>
+            </div>
+            <div class="card">
+              <h3 style="color: var(--accent-secondary)">Programming</h3>
+              <p style="color: var(--text-muted)">
+                Python, Java, JavaScript, DSA
+              </p>
+            </div>
+            <div class="card">
+              <h3 style="color: var(--accent-primary)">AI & ML</h3>
+              <p style="color: var(--text-muted)">
+                Generative AI, LLM Applications, Prompt Engineering
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects -->
+      <section class="featured-projects" aria-labelledby="projects-heading">
+        <div class="container">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-end;
+              margin-bottom: 3rem;
+            "
+          >
+            <div>
+              <h2 id="projects-heading">Featured Projects</h2>
+              <p style="color: var(--text-muted)">
+                Recent work and academic projects
+              </p>
+            </div>
+            <a
+              href="projects.html"
+              style="color: var(--accent-primary); font-weight: 600"
+              >View All Projects &rarr;</a
+            >
+          </div>
+          <div
+            class="project-grid"
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+              gap: 2.5rem;
+            "
+          >
+            <!-- Project 1 -->
+            <article class="card project-card">
+              <div
+                class="project-img"
+                style="
+                  background: #111827;
+                  height: 200px;
+                  border-radius: 8px;
+                  margin-bottom: 1.5rem;
+                  overflow: hidden;
+                "
+              >
+                <img
+                  src="assets/images/project1.jpg"
+                  alt="CampusConnect Dashboard Screenshot"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+              <h3>CampusConnect</h3>
+              <p style="color: var(--text-muted); margin-bottom: 1.5rem">
+                A student college portal designed to centralize important campus
+                services and information.
+              </p>
+              <a
+                href="projects.html"
+                class="btn btn-outline"
+                style="width: 100%; text-align: center"
+                >Learn More</a
+              >
+            </article>
+            <!-- Project 2 -->
+            <article class="card project-card">
+              <div
+                class="project-img"
+                style="
+                  background: #111827;
+                  height: 200px;
+                  border-radius: 8px;
+                  margin-bottom: 1.5rem;
+                  overflow: hidden;
+                "
+              >
+                <img
+                  src="assets/images/project2.jpg"
+                  alt="MapNFix Application Screenshot"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+              <h3>MapNFix</h3>
+              <p style="color: var(--text-muted); margin-bottom: 1.5rem">
+                A smart navigation and vehicle assistance platform for emergency
+                and fuel support.
+              </p>
+              <a
+                href="projects.html"
+                class="btn btn-outline"
+                style="width: 100%; text-align: center"
+                >Learn More</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Preview -->
+      <section
+        class="cert-preview"
+        style="background-color: var(--bg-secondary)"
+        aria-labelledby="certs-heading"
+      >
+        <div class="container">
+          <div style="text-align: center; margin-bottom: 4rem">
+            <h2 id="certs-heading">Certifications</h2>
+            <p style="color: var(--text-muted)">
+              Verified skills from industry leaders
+            </p>
+          </div>
+          <div
+            class="cert-list"
+            style="
+              max-width: 800px;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              gap: 1rem;
+            "
+          >
+            <div
+              class="card"
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.5rem 2rem;
+              "
+            >
+              <div>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.2rem">
+                  LLM for Young Developers
+                </h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem">
+                  Issued by NASSCOM
+                </p>
+              </div>
+              <span style="color: var(--accent-secondary); font-weight: 600"
+                >Verified</span
+              >
+            </div>
+            <div
+              class="card"
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.5rem 2rem;
+              "
+            >
+              <div>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.2rem">
+                  Generative AI & Deep Learning
+                </h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem">
+                  Issued by Eduskills
+                </p>
+              </div>
+              <span style="color: var(--accent-secondary); font-weight: 600"
+                >Verified</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact CTA -->
+      <section class="contact-cta">
+        <div class="container">
+          <div
+            class="card"
+            style="
+              text-align: center;
+              padding: 4rem 2rem;
+              background: linear-gradient(
+                135deg,
+                var(--card-bg) 0%,
+                rgba(139, 92, 246, 0.1) 100%
+              );
+            "
+          >
+            <h2>Interested in collaborating?</h2>
+            <p
+              style="
+                color: var(--text-muted);
+                margin-bottom: 2rem;
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+              "
+            >
+              I'm currently seeking internship opportunities and am always open
+              to discussing new projects or creative ideas.
+            </p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a
+            href="index.html"
+            class="logo"
+            style="display: block; margin-bottom: 1.5rem"
+            >Nageswari.dev</a
+          >
+          <div class="social-links">
+            <a
+              href="https://github.com/nageswari-18"
+              target="_blank"
+              aria-label="GitHub Profile"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/nageswari-vasireddy-a0063532a?utm_source=share_via&utm_content=profile&  utm_medium=member_android"
+              target="_blank"
+              aria-label="LinkedIn Profile"
+              >LinkedIn</a
+            >
+            <a href="mailto:nageswari1419@gmail.com" aria-label="Email Me"
+              >Email</a
+            >
+          </div>
+        </div>
+        <p class="copyright">
+          &copy; 2026 Nageswari Vasireddy. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- CSS Overrides for Hero Grid (Responsive) -->
+    <style>
+      @media (max-width: 992px) {
+        .hero-grid {
+          grid-template-columns: 1fr !important;
+          text-align: center;
+          gap: 2rem !important;
+        }
+        .hero-content {
+          order: 2;
+        }
+        .hero-image {
+          order: 1;
+          max-width: 300px;
+          margin: 0 auto;
+        }
+        .hero-btns {
+          justify-content: center;
+        }
+        .summary {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    </style>
+  </body>
+</html>
