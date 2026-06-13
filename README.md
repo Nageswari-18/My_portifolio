@@ -75,8 +75,6 @@ A platform designed to help students prepare for technical interviews.
 - Mock Interview Preparation
 - Progress Tracking
 
-### AI Chatbot
-An AI-powered chatbot capable of answering user questions through natural conversations.
 
 ## 🎓 Certifications
 
